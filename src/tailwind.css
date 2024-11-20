@@ -16,3 +16,7 @@
   font-weight: normal;
   font-style: normal;
 }
+
+.title-xl {
+  @apply text-primary font-bold font-mindbeam xl:text-5xl lg:text-4xl text-3xl leading-tight;
+}
