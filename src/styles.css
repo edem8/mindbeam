@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "mindbeam";
+  src: url("/fonts/SFPRODISPLAYBOLD.OTF") format("opentype"),
+    url("/fonts/SFPRODISPLAYREGULAR.OTF") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "mindbeam";
+  src: url("/fonts/SFPRODISPLAYREGULAR.OTF") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
