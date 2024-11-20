@@ -18,6 +18,9 @@
 }
 
 .title {
-  @apply text-primary font-bold font-mindbeam xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl text-md leading-tight;
+  @apply text-primary font-bold mt-6 mb-6 font-mindbeam xl:text-5xl lg:text-3xl md:text-2xl sm:text-2xl text-lg leading-tight;
 }
 
+.description {
+  @apply xl:text-lg lg:text-xs md:text-lg pb-4;
+}

@@ -1,6 +1,6 @@
 .space {
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 80px;
+  margin-bottom: 40px;
 }
 
 @media screen and (min-width: 640px) {
@@ -13,14 +13,14 @@
 @media screen and (min-width: 768px) {
   .space {
     margin-top: 150px;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .space {
     margin-top: 200px;
-    margin-bottom: 200px;
+    margin-bottom: 210px;
   }
 }
 
@@ -37,3 +37,86 @@
     margin-bottom: 300px;
   }
 }
+
+.img {
+  width: 100%;
+  height: auto;
+  flex-shrink: 0;
+}
+
+@media screen and (min-width: 640px) {
+  .img {
+    width: 75%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .img {
+    width: 70%;
+    align-self: center;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .img {
+    width: 40%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .img {
+    width: 35%;
+  }
+}
+
+@media screen and (min-width: 1536px) {
+  .img {
+    width: 35%;
+  }
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  gap: 16px;
+  padding: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .wrapper {
+    align-content: center;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .wrapper {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: left;
+    padding: 32px;
+    gap: 28px;
+
+  }
+  .space-6 {
+    flex: 1; 
+    max-width: 500px;
+  }
+}
+
+
+@media screen and (min-width: 1280px) {
+    .wrapper {
+    gap: 38px;
+      
+    }
+
+    .space-6 {
+        flex: 1; 
+        max-width: 700px;
+      }
+  }
+
+
