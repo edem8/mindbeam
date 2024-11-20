@@ -17,6 +17,7 @@
   font-style: normal;
 }
 
-.title-xl {
-  @apply text-primary font-bold font-mindbeam xl:text-5xl lg:text-4xl text-3xl leading-tight;
+.title {
+  @apply text-primary font-bold font-mindbeam xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl text-md leading-tight;
 }
+
