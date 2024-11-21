@@ -1,0 +1,297 @@
+.space {
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+
+@media screen and (min-width: 640px) {
+}
+
+@media screen and (min-width: 768px) {
+  .space {
+    margin-top: 140px;
+  }
+
+  .space-2 {
+    margin-top: 120px;
+  }
+
+  .space-up {
+    margin-top: 100px;
+  }
+
+  .space-3 {
+    padding-left: 36px;
+    padding-right: 36px;
+
+    div {
+      margin-top: 30px;
+    }
+  }
+
+  .space-4 {
+    padding-left: 30px;
+    padding-right: 30px;
+
+    h1,
+    div {
+      margin-top: 60px;
+    }
+  }
+
+  .space-5 > :is(h1, div):first-of-type {
+    margin-top: 60px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .space {
+    margin-top: 180px;
+  }
+  .space-2 {
+    margin-top: 180px;
+  }
+  .space-up {
+    margin-top: 150px;
+  }
+  .space-3 {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 36px;
+    padding-right: 36px;
+
+    div {
+      padding: 16px;
+      margin-top: 60px;
+    }
+  }
+  .space-4 {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    h1,
+    div {
+      margin-top: 60px;
+    }
+  }
+  .space-5 > :is(h1, div):first-of-type {
+    padding: 16px;
+    margin-top: 100px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .space {
+    margin-top: 250px;
+    margin-bottom: 250px;
+  }
+  .space-2 {
+    margin-top: 270px;
+    margin-bottom: 270px;
+  }
+  .space-3 {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 36px;
+    padding-right: 36px;
+
+    div {
+      padding: 16px;
+      margin-top: 20px;
+    }
+  }
+  .space-4 {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 36px;
+    padding-right: 36px;
+  }
+  .space-4 {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 36px;
+    padding-right: 36px;
+
+    h1,
+    div {
+      padding: 16px;
+      margin-top: 80px;
+    }
+  }
+
+  .space-5 > :is(h1, div):first-of-type {
+    padding: 16px;
+    margin-top: 180px;
+  }
+}
+
+@media screen and (min-width: 1536px) {
+  .space {
+    margin-top: 300px;
+    margin-bottom: 300px;
+  }
+}
+
+.img {
+  width: 80%;
+  height: auto;
+  flex-shrink: 0;
+}
+
+.img-2 {
+  width: 50%;
+}
+
+.img-3 {
+  width: 80%;
+}
+
+@media screen and (min-width: 640px) {
+  .img {
+    width: 75%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .img {
+    width: 30%;
+  }
+  .img-2 {
+    width: 35%;
+    margin-top: 120px;
+  }
+  .img-3 {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .img {
+    width: 40%;
+  }
+  .img-2 {
+    width: 30%;
+    margin-top: 140px;
+  }
+  .img-3 {
+    width: 55%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .img {
+    width: 35%;
+  }
+  .img-2 {
+    width: 30%;
+  }
+  .img-3 {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 1536px) {
+  .img {
+    width: 35%;
+  }
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  gap: 16px;
+  padding: 16px;
+}
+
+.space-6 {
+  flex: 1;
+  max-width: 400px;
+}
+@media screen and (min-width: 768px) {
+  /* .wrapper {
+    align-content: center;
+  }
+  .space-6 {
+    flex: 1;
+    max-width: 510px;
+  } */
+  .wrapper {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: left;
+    padding: 18px;
+    gap: 4px;
+  }
+  .space-6 {
+    flex: 1;
+    max-width: 350px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .wrapper {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: left;
+    padding: 18px;
+    gap: 16px;
+  }
+  .space-6 {
+    flex: 1;
+    max-width: 460px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .wrapper {
+    gap: 38px;
+  }
+
+  .space-6 {
+    flex: 1;
+    max-width: 700px;
+  }
+}
+
+.mind-flex {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .mind-flex {
+    flex-direction: row;
+    text-align: left;
+  }
+}
+
+.cnt {
+  font-size: 0.875rem;
+  padding-bottom: 14px;
+}
+
+@media (min-width: 768px) {
+  .cnt {
+    font-size: 0.54rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .cnt {
+    font-size: 0.77rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .cnt {
+    font-size: 1.125rem;
+  }
+}

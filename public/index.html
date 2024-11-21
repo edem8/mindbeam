@@ -6,54 +6,52 @@
     <title>Mindbeam</title>
 
     <link rel="stylesheet" href="styles.css" />
-    
+    <link rel="stylesheet" href="./custom/vanilla.css" />
   </head>
-  <body
-    class="bg-canvas bg-top items-center bg-cover justify-center px-4 sm:px-6 lg:px-20"
-  >
-    <!-- Content Wrapper -->
-    <div class="w-full">
+  <body class="bg-canvas bg-cover text-gray-500 font-mindbeam">
+    <div class="w-full px-4 sm:px-6 md:px-10 lg:px-15 xl:px-20">
       <!-- Nav Wrapper -->
-      <section class="flex items-center justify-between pt-20">
-        <!-- Logo -->
+      <div class="flex items-center justify-between xl:pt-20 lg:pt-20 md:pt-10">
         <img
           src="/images/Mindbeam.png"
           alt="Mindbeam"
-          class="w-36 cursor-pointer"
+          class="w-16 sm:w-24 md:w-28 lg:w-32 xl:w-36 cursor-pointer"
         />
 
-        <!-- Ellipsis -->
-        <h1 class="text-3xl font-bold font-mindbeam">...</h1>
-      </section>
+        <h1
+          class="xl:text-3xl lg:text-2xl text-xl text-black font-bold font-mindbeam"
+        >
+          ...
+        </h1>
+      </div>
 
       <!-- Hero Wrapper -->
-      <section class="text-center mt-[280px] mb-[280px]">
+      <div class="text-center space">
         <h1 class="title">
-          Next Generation AI Infrastructure <br />
-          for Open Source and Enterprise
+          Next Generation AI Infrastructure<br />for Open Source and Enterprise
         </h1>
-      </section>
+      </div>
 
       <!-- Quantum Wrapper -->
-      <section class="grid grid-cols-1 lg:grid-cols-2 gap-8">
-        <!-- Image -->
-        <div class="mx-auto">
-          <img src="/images/Quantum.png" alt="Quantum AI Framework" />
-        </div>
+      <div class="wrapper space-2">
+        <img
+          src="/images/Quantum.png"
+          alt="Quantum AI Framework"
+          class="img mx-auto"
+        />
 
-        <!-- Text -->
-        <div class="description pt-10 sm:px-4 lg:px-0">
+        <div class="space-6 mx-auto">
           <h1 class="title">
             Quantum AI Framework for <br />
             Faster ML Training & Inference
           </h1>
-          <p>
+          <p class="cnt">
             Today's AI Infrastructure is limited by compute capabilities, which
-            are hindered by algorithmic inefficiencies.This further makes the
+            are hindered by algorithmic inefficiencies. This further makes the
             production of larger models prohibitively expensive while inhibiting
             the implementation of advanced AI technologies.
           </p>
-          <p>
+          <p class="cnt">
             At Mindbeam, we are building a Quantum AI Framework that leverages
             low-precision data formats along with quantum algorithms to speed up
             ML training and inference workloads for generative AI applications.
@@ -63,119 +61,99 @@
             infrastructure.
           </p>
         </div>
-      </section>
+      </div>
 
-      <!-- GPU Speed Wrapper -->
-      <section class="text-center mt-[280px] mb-[280px]">
-        <!--Text-->
+      <!-- GPU Wrapper -->
+
+      <div class="text-center space-y-6 space-up">
         <h1 class="title">
           Our Quantum AI Framework Boots <br />
           GPU speeds by 25x
         </h1>
-
-        <!--Image-->
         <img
           alt="GPU Speeds"
           src="/images/GPU Speeds.png"
           class="w-full mx-auto"
         />
-      </section>
+      </div>
 
-      <!-- Blazing fast Performance -->
-      <section
-        class="description text-left flex flex-col sm:flex-row justify-center items-center"
-      >
-        <!--Text-->
-        <div class="space-y-6">
+      <!-- Experience -->
+
+      <div class="mind-flex space-3">
+        <div class="cnt md:text-left">
           <h1 class="title">
             Experience blazing fast performance<br />
             with Zero Code Changes
           </h1>
-
           <p>
-            Leverage accelerated compute on existing hardware without chnaging
+            Leverage accelerated compute on existing hardware without changing
             codebases or model framework
           </p>
         </div>
-
-        <!-- Image -->
         <img
           src="/images/Experience.png"
           alt="Experience-image"
-          class="w-80 h-auto"
+          class="img-2"
         />
-      </section>
+      </div>
 
       <!-- Compatibility Wrapper -->
-      <section
-        class="text-center flex flex-col items-center space-y-6 mt-[280px] mb-[280px]"
-      >
-        <!--Text-->
+      <div class="text-center flex flex-col space-y-4 space-4">
         <h1 class="title">Compatible with industry standard ML frameworks</h1>
-
-        <!--Image-->
-        <img alt="Compatibile-with" src="/images/Compatible.png" />
-      </section>
+        <img
+          alt="Compatibile-with"
+          src="/images/Compatible.png"
+          class="img-3 mx-auto"
+        />
+      </div>
 
       <!-- Partners Wrapper -->
-      <section
-        class="text-center flex flex-col description description items-center space-y-6 mt-[280px] mb-[280px]"
-      >
-        <!--Text-->
+      <div class="text-center flex flex-col cnt items-center space-y-6 space-4">
         <div>
           <h1 class="title">Our Partners</h1>
           <p>Trusted by leading industry players</p>
         </div>
-
-        <!--Image-->
-        <img alt="Partners" src="/images/Partners.png" />
-      </section>
+        <img alt="Partners" src="/images/Partners.png" class="img-3" />
+      </div>
 
       <!-- Waitlist Wrapper -->
-      <section
-        class="text-center flex flex-col items-center font-mindbeam space-y-6 mt-[280px] mb-[280px]"
-      >
-        <!-- Text -->
-        <h1 class="title">Access Tomorrow's AI Infrastructure Today</h1>
-
-        <!-- Form -->
-        <div class="flex justify-center items-center mt-20">
-          <div class="relative w-full max-w-lg">
-            <!-- Email Input and Button -->
-            <input
-              id="emailInput"
-              type="email"
-              placeholder="Enter email here"
-              class="w-full p-4 pr-16 border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-[#F9B08F] text-sm"
-            />
-            <!-- Button Inside Input -->
-            <button
-              type="submit"
-              id="submitBtn"
-              class="absolute right-2 top-0 bottom-0 px-2 my-2 bg-gradient-to-r from-[#9F307A] to-[#F9B08F] text-white rounded-full text-sm font-bold shadow-lg hover:bg-blue-600"
-            >
-              Join the waitlist
-            </button>
+      <div class="space-5">
+        <div
+          class="text-center flex flex-col items-center font-mindbeam space-y-6"
+        >
+          <h1 class="title">Access Tomorrow's AI Infrastructure Today</h1>
+          <div class="flex justify-center items-center">
+            <div class="relative w-full max-w-lg">
+              <input
+                id="emailInput"
+                type="email"
+                placeholder="Enter email here"
+                class="w-full p-4 pr-16 border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-[#F9B08F] text-gray-500 text-sm"
+              />
+              <button
+                type="submit"
+                id="submitBtn"
+                class="absolute right-2 top-0 bottom-0 px-2 my-2 bg-gradient-to-r from-[#9F307A] to-[#F9B08F] text-white rounded-full text-sm font-bold shadow-lg hover:bg-blue-600"
+              >
+                Join the waitlist
+              </button>
+            </div>
           </div>
         </div>
-      </section>
+      </div>
 
       <!-- Contact Wrapper -->
-      <section class="description text-center mb-20">
-        <p>Email: business@mindbeam.ai</p>
-
-        <p>
-          Handcrafted by Mindbeam<br />
-          Copyright <span class="copyright">&copy</span> 2024 Mindbeam.All
-          rights reserved
-        </p>
-      </section>
+      <div class="space-5">
+        <div class="text-center">
+          <p class="cnt">Email: business@mindbeam.ai</p>
+          <p class="cnt">
+            Handcrafted by Mindbeam<br />
+            Copyright <span class="copyright">&copy</span> 2024 Mindbeam.All
+            rights reserved
+          </p>
+        </div>
+      </div>
     </div>
-
-
-    <!-- Scripts -->
-    <script src="script.js" defer></script>
-    
-
+    <script src="script.js"></script>
   </body>
 </html>
