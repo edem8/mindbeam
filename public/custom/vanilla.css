@@ -16,8 +16,9 @@
     margin-bottom: 100px;
   }
 
-  .space-up{
-    margin-top: 70px;
+  .space-3 {
+    padding-left: 36px;
+    padding-right: 36px;
   }
 }
 
@@ -30,6 +31,15 @@
     margin-top: 180px;
     margin-bottom: 180px;
   }
+  .space-3 {
+    padding-left: 0px;
+    padding-right: 0px;
+
+    div {
+      padding: 16px;
+      margin-top: 50px;
+    }
+  }
 }
 
 @media screen and (min-width: 1280px) {
@@ -40,6 +50,17 @@
   .space-2 {
     margin-top: 270px;
     margin-bottom: 270px;
+  }
+  .space-3 {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 36px;
+    padding-right: 36px;
+
+    div {
+      padding: 16px;
+      margin-top: 20px;
+    }
   }
 }
 
@@ -56,6 +77,10 @@
   flex-shrink: 0;
 }
 
+.img-2 {
+  width: 50%;
+}
+
 @media screen and (min-width: 640px) {
   .img {
     width: 75%;
@@ -67,17 +92,28 @@
     width: 70%;
     align-self: center;
   }
+  .img-2 {
+    width: 35%;
+    margin-top: 70px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
   .img {
     width: 35%;
   }
+  .img-2 {
+    width: 30%;
+    margin-top: 70px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
   .img {
     width: 35%;
+  }
+  .img-2 {
+    width: 30%;
   }
 }
 
@@ -125,5 +161,20 @@
   .space-6 {
     flex: 1;
     max-width: 700px;
+  }
+}
+
+.mind-flex {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .mind-flex {
+    flex-direction: row;
+    text-align: left;
   }
 }

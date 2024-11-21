@@ -22,5 +22,5 @@
 }
 
 .description {
-  @apply xl:text-lg lg:text-xs md:text-lg pb-4;
+  @apply xl:text-md lg:text-xs text- pb-4;
 }
