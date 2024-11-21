@@ -3,6 +3,7 @@
   margin-bottom: 40px;
 }
 
+
 @media screen and (min-width: 640px) {
   .space {
     margin-top: 100px;
@@ -32,12 +33,15 @@
     margin-bottom: 180px;
   }
   .space-3 {
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 36px;
+    padding-right: 36px;
+    
 
     div {
       padding: 16px;
-      margin-top: 50px;
+      margin-top: 100px;
     }
   }
 }
@@ -72,7 +76,7 @@
 }
 
 .img {
-  width: 100%;
+  width: 80%;
   height: auto;
   flex-shrink: 0;
 }
@@ -89,7 +93,7 @@
 
 @media screen and (min-width: 768px) {
   .img {
-    width: 70%;
+    width: 55%;
     align-self: center;
   }
   .img-2 {
@@ -104,7 +108,7 @@
   }
   .img-2 {
     width: 30%;
-    margin-top: 70px;
+    margin-top: 140px;
   }
 }
 
