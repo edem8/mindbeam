@@ -31,8 +31,13 @@
 
     h1,
     diiv {
-      margin-top: 80px;
+      margin-top: 90px;
     }
+  }
+
+  .space-5 > :is(h1, div):first-of-type {
+    padding: 16px;
+    margin-top: 80px;
   }
 }
 
@@ -67,6 +72,10 @@
       margin-top: 70px;
     }
   }
+  .space-5 > :is(h1, div):first-of-type {
+    padding: 16px;
+    margin-top: 100px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
@@ -94,12 +103,23 @@
     padding-bottom: 32px;
     padding-left: 36px;
     padding-right: 36px;
+  }
+  .space-4 {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 36px;
+    padding-right: 36px;
 
     h1,
     div {
       padding: 16px;
-      margin-top: 80px;
+      margin-top: 60px;
     }
+  }
+
+  .space-5 > :is(h1, div):first-of-type {
+    padding: 16px;
+    margin-top: 100px;
   }
 }
 
