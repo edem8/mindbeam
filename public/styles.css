@@ -584,44 +584,17 @@ video {
   margin-bottom: 0.5rem;
 }
 
-.mb-20 {
-  margin-bottom: 5rem;
-}
-
-.mb-\[280px\] {
-  margin-bottom: 280px;
-}
-
-.mt-20 {
-  margin-top: 5rem;
-}
-
-.mt-\[280px\] {
-  margin-top: 280px;
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .flex {
   display: flex;
 }
 
-.grid {
-  display: grid;
-}
-
-.h-auto {
-  height: auto;
-}
-
 .w-16 {
   width: 4rem;
-}
-
-.w-36 {
-  width: 9rem;
-}
-
-.w-80 {
-  width: 20rem;
 }
 
 .w-full {
@@ -634,10 +607,6 @@ video {
 
 .cursor-pointer {
   cursor: pointer;
-}
-
-.grid-cols-1 {
-  grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
 .flex-col {
@@ -654,10 +623,6 @@ video {
 
 .justify-between {
   justify-content: space-between;
-}
-
-.gap-8 {
-  gap: 2rem;
 }
 
 .space-y-4 > :not([hidden]) ~ :not([hidden]) {
@@ -707,10 +672,6 @@ video {
   background-size: cover;
 }
 
-.bg-top {
-  background-position: top;
-}
-
 .p-4 {
   padding: 1rem;
 }
@@ -729,16 +690,8 @@ video {
   padding-right: 4rem;
 }
 
-.pt-10 {
-  padding-top: 2.5rem;
-}
-
-.pt-20 {
-  padding-top: 5rem;
-}
-
-.text-left {
-  text-align: left;
+.pt-5 {
+  padding-top: 1.25rem;
 }
 
 .text-center {
@@ -747,11 +700,6 @@ video {
 
 .font-mindbeam {
   font-family: mindbeam;
-}
-
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
 }
 
 .text-sm {
@@ -811,11 +759,9 @@ video {
 }
 
 .title {
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
   font-family: mindbeam;
-  font-size: 0.875rem;
-  line-height: 1.25rem;
+  font-size: 0.75rem;
+  line-height: 1rem;
   font-weight: 700;
   line-height: 1.25;
   --tw-text-opacity: 1;
@@ -831,6 +777,7 @@ video {
 
 @media (min-width: 1024px) {
   .title {
+    padding-bottom: 1.25rem;
     font-size: 1.875rem;
     line-height: 2.25rem;
   }
@@ -838,6 +785,7 @@ video {
 
 @media (min-width: 1280px) {
   .title {
+    padding-bottom: 1.25rem;
     font-size: 2.25rem;
     line-height: 2.5rem;
   }
@@ -869,15 +817,6 @@ video {
     width: 6rem;
   }
 
-  .sm\:flex-row {
-    flex-direction: row;
-  }
-
-  .sm\:px-4 {
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-
   .sm\:px-6 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
@@ -906,20 +845,6 @@ video {
 @media (min-width: 1024px) {
   .lg\:w-32 {
     width: 8rem;
-  }
-
-  .lg\:grid-cols-2 {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .lg\:px-0 {
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-
-  .lg\:px-20 {
-    padding-left: 5rem;
-    padding-right: 5rem;
   }
 
   .lg\:pt-20 {
