@@ -26,8 +26,9 @@
     margin-top: 160px;
     margin-bottom: 160px;
   }
-  .space-up {
-    margin-top: 100px;
+  .space-2 {
+    margin-top: 180px;
+    margin-bottom: 180px;
   }
 }
 
@@ -35,6 +36,10 @@
   .space {
     margin-top: 250px;
     margin-bottom: 250px;
+  }
+  .space-2 {
+    margin-top: 270px;
+    margin-bottom: 270px;
   }
 }
 
@@ -66,7 +71,7 @@
 
 @media screen and (min-width: 1024px) {
   .img {
-    width: 40%;
+    width: 35%;
   }
 }
 
@@ -103,12 +108,12 @@
     justify-content: space-between;
     align-items: flex-start;
     text-align: left;
-    padding: 32px;
-    gap: 28px;
+    padding: 18px;
+    gap: 16px;
   }
   .space-6 {
     flex: 1;
-    max-width: 500px;
+    max-width: 460px;
   }
 }
 
