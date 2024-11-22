@@ -120,8 +120,10 @@
 
       <!-- Waitlist Wrapper -->
       <div class="space-5">
-        <div
+        <form
           class="text-center flex flex-col items-center font-mindbeam space-y-6"
+          action="https://formsubmit.co/eddieblack159@gmail.com"
+          method="POST"
         >
           <h1 class="title">Access Tomorrow's AI Infrastructure Today</h1>
           <div class="flex justify-center items-center">
@@ -129,9 +131,14 @@
               <input
                 id="emailInput"
                 type="email"
+                name="email"
+                required
                 placeholder="Enter email here"
                 class="w-full p-4 pr-16 border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-[#F9B08F] text-gray-500 text-sm"
               />
+              <input type="text" name="name" value="edem" hidden required />
+
+              <input type="hidden" name="_captcha" value="false" />
               <button
                 type="submit"
                 id="submitBtn"
@@ -141,7 +148,7 @@
               </button>
             </div>
           </div>
-        </div>
+        </form>
       </div>
 
       <!-- Contact Wrapper -->

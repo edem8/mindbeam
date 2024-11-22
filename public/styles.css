@@ -593,6 +593,10 @@ video {
   display: flex;
 }
 
+.hidden {
+  display: none;
+}
+
 .w-16 {
   width: 4rem;
 }
