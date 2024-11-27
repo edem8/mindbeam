@@ -160,7 +160,7 @@
 }
 
 .img {
-  width: 30%;
+  width: 35%;
   height: auto;
   flex-shrink: 0;
 }
@@ -243,12 +243,12 @@
   justify-content: space-between;
   align-items: flex-start;
   text-align: left;
-  padding: 18px;
-  gap: 4px;
+  padding: 16px;
+  gap: 10px;
 }
 .space-6 {
   flex: 1;
-  max-width: 200px;
+  max-width: 210px;
 }
 @media screen and (min-width: 768px) {
   /* .wrapper {
@@ -323,7 +323,7 @@
 }
 
 .cnt {
-  font-size: 0.41rem;
+  font-size: 0.462rem;
   padding-top: 6px;
 }
 
