@@ -41,7 +41,7 @@
   }
 
   .space-up {
-    margin-top: 40px;
+    margin-top: 20px;
   }
 
   .space-2 {
@@ -303,7 +303,7 @@
 
   .space-6 {
     flex: 1;
-    max-width: 380px;
+    max-width: 290px;
   }
 }
 /* .quantum-ball-text-wrapper {
@@ -394,7 +394,7 @@
   }
 
   .cnt {
-    font-size: 0.594rem;
+    font-size: 0.694rem;
     padding-top: 10px;
   }
 }
