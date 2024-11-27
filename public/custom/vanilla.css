@@ -1,9 +1,10 @@
+/* custom spacing styles */
 .space {
-  margin-top: 160px;
+  margin-top: 170px;
 }
 
 .space-2 {
-  margin-top: 60px;
+  margin-top: 70px;
 }
 
 .space-up {
@@ -26,7 +27,7 @@
 
   h1,
   form {
-    margin-top: 30px;
+    margin-top: 40px;
   }
 }
 
@@ -36,7 +37,7 @@
 
 @media screen and (min-width: 425px) {
   .space {
-    margin-top: 100px;
+    margin-top: 130px;
   }
 
   .space-up {
@@ -194,6 +195,9 @@
   }
 }
 
+
+
+/* custom images styles */
 .img {
   width: 100%;
   height: auto;
@@ -270,7 +274,10 @@
   }
 }
 
-.wrapper {
+
+
+/* custom energy ball & text wrapper */
+.quantum-ball-text-wrapper {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -281,11 +288,11 @@
 
 .space-6 {
   flex: 1;
-  max-width: 295px;
+  max-width: 350px;
 }
 
 @media screen and (min-width: 425px) {
-  .wrapper {
+  .quantum-ball-text-wrapper {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -296,10 +303,10 @@
 
   .space-6 {
     flex: 1;
-    max-width: 340px;
+    max-width: 380px;
   }
 }
-/* .wrapper {
+/* .quantum-ball-text-wrapper {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -314,14 +321,14 @@
 }
   */
 @media screen and (min-width: 768px) {
-  /* .wrapper {
+  /* .quantum-ball-text-wrapper {
     align-content: center;
   }
   .space-6 {
     flex: 1;
     max-width: 510px;
   } */
-  .wrapper {
+  .quantum-ball-text-wrapper {
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
@@ -331,12 +338,12 @@
   }
   .space-6 {
     flex: 1;
-    max-width: 350px;
+    max-width: 400px;
   }
 }
 
 @media screen and (min-width: 1024px) {
-  .wrapper {
+  .quantum-ball-text-wrapper {
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
@@ -351,7 +358,7 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .wrapper {
+  .quantum-ball-text-wrapper {
     gap: 38px;
   }
 
@@ -361,6 +368,8 @@
   }
 }
 
+
+/* custom experience wrapper style */
 .mind-flex {
   display: flex;
   flex-direction: column;
@@ -369,8 +378,9 @@
   text-align: left;
 }
 
+/* custom paragraph text style */
 .cnt {
-  font-size: 0.6rem;
+  font-size: 0.81rem;
   padding-top: 10px;
 }
 
@@ -384,7 +394,7 @@
   }
 
   .cnt {
-    font-size: 0.571rem;
+    font-size: 0.594rem;
     padding-top: 10px;
   }
 }
